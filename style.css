@@ -1,10 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
-
-body {
-  background-color: black;
+  color: black;
 }
 
 .about h1 {
@@ -17,11 +13,6 @@ body {
   font-size: 18px;
 }
 
-.projects h1{
-  color: darkcyan;
-  font-size: 25px;
-}
-
 .rounded-photo {
   border-radius: 10%;
 }
@@ -29,4 +20,76 @@ body {
 .corLinks {
   color: rgb(48, 121, 150);
   text-decoration: none;
+}
+
+.about, .skills {
+  padding-bottom: 20px;
+}
+
+.skills li{
+  list-style-type: square;
+  margin-left: -20px;
+  line-height: 23px;
+}
+
+.links {
+  line-height: 30px;
+}
+
+.main {
+  background-color: white;
+  display: block;
+  margin: 8px;
+}
+
+.main-content {
+  margin: auto;
+  max-width: 20%;
+  display: inline-block;
+  padding: 30px 30px 20px 30px;
+  background-color: #f5f5f5;
+  vertical-align: top;
+}
+
+.projects {
+  margin: auto;
+  width: 60%;
+  display: inline-block;
+  padding: 30px 30px 20px 30px;
+}
+
+.linkProject1 {
+  color: white;
+  background-color: darkcyan;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-size: 10px;
+  line-height: 50px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.title-projects h1{
+  color: darkcyan;
+  font-size: 25px;
+  text-align: center;
+}
+
+.nav {
+  padding-top: 30px;
+  position: fixed;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 25px;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.nav li a{
+  text-decoration: none;
+}
+
+.nav li {
+  list-style-type: none;
 }
