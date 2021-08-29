@@ -3,22 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Gabriel Alves</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <main class="main">
-    <main class="main-content">
-      <section class="about" id="about">
+<body id="home">
+  <main id="group">
+    <section id="about">
+      <section id="main-about">
         <h1>Gabriel Alves</h1>
-        <img class="rounded-photo" src="image/foto.jpg" alt="Foto do Gabriel Alves" width="100px">
-        <p> Me chamo Gabriel Alves Silva, moro em <i>Visconde do Rio Branco-MG Brasil</i>, nascido em <i>Mariana-MG
-            Brasil</i>.
-        <p> Atualmente estudando Desenvolvimento Web na <a class="corLinks" href="https://betrybe.com"
-            target="_blank">Trybe.</a></p>
+        <img id="photo-about" src="image/foto.jpg" alt="Foto do Gabriel Alves" width="100px">
+        <p> Me chamo Gabriel Alves Silva, moro em <i>Visconde do Rio Branco-MG Brasil</i>, nascido em <i>Mariana-MG Brasil</i>.
+        <p> Atualmente estudando Desenvolvimento Web na <a class="link" href="https://betrybe.com" target="_blank">Trybe.</a></p>
       </section>
-      <section class="skills" id="skills">
+      <section id="skills">
         <h2>Habilidades</h2>
         <ul>
           <li>Alta adaptabilidade</li>
@@ -34,40 +34,46 @@
           <li>CSS</li>
         </ul>
       </section>
-      <section class="links" id="links">
-        <a class="corLinks" href="https://www.linkedin.com/in/gabrielalves1/" target="_blank">My LinkedIn
-          Profile</a><br>
-        <a class="corLinks" href="https://github.com/G-Alves1" target="_blank">My GitHub Profile</a>
+      <section id="my-links">
+        <a class="link" href="https://www.linkedin.com/in/gabrielalves1/" target="_blank">My LinkedIn Profile</a><br>
+        <a class="link" href="https://github.com/G-Alves1" target="_blank">My GitHub Profile</a>
       </section>
-    </main>
-    <main class="projects">
-      <section class="title-projects">
+    </section>
+
+    <section id="projects">
+      <section id="title-projects">
         <h1>Projetos</h1>
         <p>Aqui estão alguns dos meus projetos:</p>
       </section>
-      <section class="list-projects">
-        <div id="project1">
-          <a class="linkProject1" href="https://github.com/G-Alves1" target="_blank"> Primeiro projeto </a>
-          <br>
-          <img class="imgProject1" src="image/primeiro projeto.jpeg" alt="Primeiro projeto" width="300px">
-        </div>
+      <hr>
+      <section id="project1">
+        <p><b>Primeiro projeto:</b></p>
+        <img class="imgProject1" src="image/primeiro projeto.jpeg" alt="Primeiro projeto" width="500px">
       </section>
       <hr>
-    </main>
-    <nav class="nav">
+      <section id="project2">
+        <p><b>Segundo projeto:</b></p>
+      </section>
+    </section>
+
+    <nav id="nav">
       <ul>
-        <li><a class="corLinks" href="#about">Sobre</a></li>
-        <li><a class="corLinks" href="#skills">Habilidades</a></li>
-        <li><a class="corLinks" href="#links">Links</a></li>
-        <br>
+        <li><a class="link" href="#about">Sobre</a></li>
+        <li><a class="link" href="#skills">Habilidades</a></li>
+        <li><a class="link" href="#my-links">Links</a></li>
+      </ul>
+      <ul>
         <h2>Projetos</h2>
-        <li><a class="corLinks" href="#project1">Projeto 01</a></li>
-        <li>Projeto 02</li>
+        <li><a class="link" href="#project1">Projeto 01</a></li>
+        <li><a class="link" href="#project2">Projeto 02</a></li>
         <li>Projeto 03</li>
         <li>Projeto 04</li>
       </ul>
     </nav>
   </main>
+  <footer id="footer">
+    <p><a class="link" href="#home">Home</a></p>
+  </footer>
 </body>
 
 </html>
